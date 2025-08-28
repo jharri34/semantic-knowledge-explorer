@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: semantic-knowledge-explorer
+Version: 0.0.1
+Summary: Explore conceptual relationships in documents using embeddings.
+Requires-Python: >=3.9
+Requires-Dist: transformers
+Requires-Dist: lancedb
+Requires-Dist: PyPDF2
+Requires-Dist: rich
+Requires-Dist: torch
+Requires-Dist: sentence-transformers

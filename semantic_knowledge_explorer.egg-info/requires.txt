@@ -1,0 +1,6 @@
+transformers
+lancedb
+PyPDF2
+rich
+torch
+sentence-transformers

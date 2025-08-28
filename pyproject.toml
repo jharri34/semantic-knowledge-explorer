@@ -1,0 +1,17 @@
+[project]
+name = "semantic-knowledge-explorer"
+version = "0.0.1"
+description = "Explore conceptual relationships in documents using embeddings."
+dependencies = [
+    "transformers",
+    "lancedb",
+    "PyPDF2",
+    "rich",
+    "torch", # PyTorch is a dependency for many HuggingFace models
+    "sentence-transformers", # Often used with HuggingFace for sentence embeddings
+]
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
